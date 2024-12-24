@@ -17,4 +17,5 @@ class DemoTest(unittest.TestCase):
     self.assertFalse(False)
 
   def test_is_env_var_set1(self):
+    print("this should be printed somewhere")
     self.assertTrue(os.getenv("ENV_VAR_1") == "True")
