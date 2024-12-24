@@ -1,6 +1,6 @@
 #!/bin/sh
 
-python3 -m pytest --junitxml=testresult.xml
+python3 -m pytest demo.py --junitxml=testresult.xml
 
 mkdir -p info
 
