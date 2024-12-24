@@ -2,4 +2,5 @@ info/
 app.tgz
 .venv/
 __pycache__/
-demo.xml
+testresult.xml
+app-*.tgz
