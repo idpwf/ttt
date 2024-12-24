@@ -1,5 +1,7 @@
 #!/bin/sh
 
+python3 -m pytest --junitxml=testresult.xml
+
 mkdir -p info
 
 echo BUILD INFO > info/info.txt
